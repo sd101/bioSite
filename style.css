@@ -1,0 +1,182 @@
+html{
+	font-size:16px;
+}
+
+body {
+		background-color: rgb(247, 112,34, .2);
+}
+/*Colors of he year https://www.w3schools.com/colors/colors_trends.asp */
+
+.intro{
+	color:black;
+	background-color: rgb(247, 112,34);}
+	
+
+h1,h2, h4, h5, h6 {
+font-family: Oswald, Verdana, Arial, san-serif;}
+
+h1{ 
+font-weight: 700;
+margin: 0px;
+text-transform: uppercase;
+line-height:.5em;
+font-size: 3.815em;
+color: rgb(185,63, 8);
+}
+
+h2{
+font-weight:500;
+  font-size: 3.052em;
+  line-height: .3em;
+  color: rgb(185,63, 8);}
+
+h3{
+font-family:Oswald;
+font-weight: 500;
+  font-size: 2.441em;
+}
+
+h4 {
+	font-size:1.953em;
+}
+
+h5 {
+	font-size:1.563em;
+}
+
+h6 {
+	font-size:1.25em;
+}
+/*top ten list*/
+ol{
+padding: 10px;
+background-color: rgb(233, 90, 16);
+list-style-position: inside;
+border-radius: 15px;
+color:#fff;
+}
+
+ul{
+ border-style: dashed;
+  border-color: rgb(185, 63, 8); 
+
+padding: 10px;
+list-style-position: inside;
+border-radius: 15px;
+list-style-type: none;
+}
+
+
+li{
+font-family: Oswald, Verdana, Arial, sans-seri;
+font-weight:300;
+
+}
+
+p{
+	font-weight:400;
+	line-height:1.4em;
+	font-family: Quattrocento,Georgia,"Times New Roman",serif;
+	}
+
+.sentence {
+    font-size: 1.25em;
+}
+	
+
+address{
+	font-family: Quattrocento, Georgia, "Times New Roman", serif;
+	font-size: .8em;
+	}
+	
+address a{
+  font-size: 1em;
+  font-weight: bold;
+  line-height: .5em;
+  color:green;
+}
+
+address a:link {
+	color: green;
+}
+
+address a:hover{
+	color:red;}
+	
+address a:visited{
+	color:purple;}
+		
+a{
+ font-family:Oswald;
+ text-decoration:none;
+}
+
+ a:link {
+	color: green;
+}
+
+a:hover{
+	color:red;}
+	
+a:visited{
+	color:purple;}
+
+* {
+  box-sizing: border-box;
+}		
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+    max-width: 220px;
+    max-height: 150px;
+	border: 1em solid white;
+}
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: 10px;
+}
+
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font-family: oswald;
+    padding: 3px;
+    text-align: center;
+	font-size:1.563em;
+	font-weight:400;
+}
+/*https://css-tricks.com/guide-responsive-friendly-css-columns/ */
+article {
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+		  -webkit-column-gap: 4em;
+     -moz-column-gap: 4em;
+          column-gap: 4em;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
