@@ -74,7 +74,7 @@ font-weight:300;
   line-height: .2em;
   }
   
- h6{
+h6{
 	font-weight:300;
 	font-size: .296em;
 	line-height: .2em;  }
@@ -98,15 +98,14 @@ div.header {
 	border: 1px solid #ccc;
 	float: left;
 	width: 100%;}
- 
-
   
 img {
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 5px;
-	width: 300px;
-	max-width: 220px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    max-width: 220px;
+	height: auto;
 	min-height: 190px;
  }
 
