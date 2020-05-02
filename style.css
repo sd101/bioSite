@@ -43,6 +43,11 @@ header{
 	border:10px outset silver;>
 }
 
+header:hover
+{
+        border-radius:70%;
+}
+
 /*https://www.computerhope.com/cgi-bin/htmlcolor.pl?c=ADD8E6 Color source*/
 .intro{
 	color:white;
@@ -92,7 +97,7 @@ font-weight:300;
   line-height: .2em;
   }
 
- h5{
+h5{
 font-weight:300;
   font-size: .444em;
   line-height: .2em;
@@ -146,6 +151,7 @@ img:hover {
     height:auto;
     display:block;
     z-index:999;
+	transition:all 0.9s ease;
 } 
 
 main{
