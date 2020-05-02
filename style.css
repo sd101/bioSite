@@ -40,7 +40,7 @@ header{
 	width: 725px; 
 	color: #ffffff; 
 	margin:auto;
-	border:10px outset silver;>
+	border:10px outset silver;
 }
 
 header:hover
@@ -218,4 +218,4 @@ text-align:center;}
 a:link { color: blue; text-decoration: none; font-weight: normal }
 a:visited { color: purple; text-decoration: none; font-weight: normal }
 a:active { color: red; text-decoration: none }
-a:hover { color: red; text-decoration: none; font-weight: none }
+a:hover { color: red; text-decoration: none;}
