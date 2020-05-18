@@ -81,26 +81,26 @@ font-size: 2.25em;}
 h2{
 font-weight:500;
   font-size: 1.3em;
-  line-height: .2em;
+  line-height: 1.2em;
   text-align: center;}
 
 h3{ 
 	font-weight: 500;
 	margin: 0px;
 	font-size: 1em;
-	line-height:.2em;
+	line-height:1.2em;
 }
 
 h4{
 font-weight:300;
   font-size: .667em;
-  line-height: .2em;
+  line-height: 1.2em;
   }
 
 h5{
 font-weight:300;
   font-size: .444em;
-  line-height: .2em;
+  line-height: 1.2em;
   }
   
 h6{
@@ -110,8 +110,8 @@ h6{
    
    
 p{
-	font-weight:300;
-	line-height:1.10em;
+	font-weight:500;
+	line-height:1.20em;
 	font-size: 1.10em;
 	font-family: Quattrocento,Georgia,"Times New Roman",serif;
 	padding: 0px 10px 0px 10px;
@@ -165,7 +165,7 @@ main{
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.3333%;
+  width: 33.33333%;
   padding: 10px;
   margin-top: 8px;
   min-height: 1050px;
